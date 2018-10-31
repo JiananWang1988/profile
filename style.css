@@ -19,10 +19,16 @@ li {
   text-decoration: underline;
 }
 
+li:hover{
+  text-decoration: none;
+}
+
 .box {
   width: 500px;
   margin: 0 auto;
   background-color: white;
+  box-shadow: 10px 10px;
+  border:solid;
 }
 
 .text-center{
